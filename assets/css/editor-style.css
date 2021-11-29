@@ -1,0 +1,84 @@
+.editor-style h1, .editor-style h2, .editor-style h3, .editor-style h4, .editor-style h5, .editor-style h6 {
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 50px 0 20px;
+}
+
+.editor-style h1 {
+  padding: 10px 0;
+  border-top: 2px solid #FC4D52;
+  border-bottom: 2px solid #FC4D52;
+}
+
+.editor-style h2 {
+  padding: 0 0 10px;
+  border-bottom: 2px solid #FC4D52;
+}
+
+.editor-style h3 {
+  padding: 0 0 0 10px;
+  border-left: 4px solid #FC4D52;
+}
+
+.editor-style img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.editor-style a {
+  color: #FC4D52;
+  text-decoration: underline;
+}
+
+.editor-style ul {
+  margin: 0 0 0 20px;
+}
+
+.editor-style ul li {
+  list-style: disc;
+}
+
+.editor-style ol {
+  margin: 0 0 0 20px;
+}
+
+.editor-style p {
+  margin: 0 0 20px;
+}
+
+.editor-style blockquote {
+  background: #DDD8CF;
+  padding: 20px;
+}
+
+.editor-style blockquote p:last-child {
+  margin: 0;
+}
+
+.editor-style .aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.editor-style .alignright {
+  float: right;
+  margin-left: 20px;
+}
+
+.editor-style .alignleft {
+  float: left;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .editor-style .alignright {
+    float: none;
+    margin-left: 0;
+  }
+  .editor-style .alignleft {
+    float: none;
+    margin-right: 0;
+  }
+}
