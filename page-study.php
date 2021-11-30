@@ -51,7 +51,7 @@
 			<div class="p-sophStudy-trAbout__dl">
 				<div class="main">
 					<h4>母親学級研修ご希望の方は</h4>
-					<p>所定の申込書に必要事項をご記入の上、FAX にてお申込み下さい。<br>お申込書は左よりダウンロードいただけます。</p>
+					<p>所定の申込書に必要事項をご記入の上、FAX にてお申込み下さい。<br>お申込書は右よりダウンロードいただけます。</p>
 				</div>
 				<ul class="sub">
 					<li><a href="<?php echo get_template_directory_uri(); ?>/assets/images/_common/soffax.pdf" target="_blank">
@@ -87,7 +87,7 @@
 					<div class="p-sophStudy-trAbout__dl -sizeS">
 						<div class="main">
 							<h4>ビデオ・ DVDご希望の方は</h4>
-							<p>所定の申込書に必要事項をご記入の上、FAX にてご注文下さい。<br>ご注文用紙は左よりダウンロードいただけます。</p>
+							<p>所定の申込書に必要事項をご記入の上、FAX にてご注文下さい。<br>ご注文用紙は右よりダウンロードいただけます。</p>
 						</div>
 						<ul class="sub">
 							<li><a href="<?php echo get_template_directory_uri(); ?>/assets/images/_common/dvdfax.pdf" target="_blank">
@@ -143,7 +143,7 @@
 			<article class="p-sophStudy-trReport__post">
 				<div class="main">
 					<?php if( has_post_thumbnail() ){
-						the_post_thumbnail(); 
+						the_post_thumbnail();
 					}else{
 						echo '<img src="'.get_template_directory_uri().'/assets/images/sophroology_study/no-thumbnail.jpg" alt="">';
 					}?>
@@ -155,8 +155,8 @@
 				</div>
 			</article>
 			<?php endwhile; endif; wp_reset_postdata();?>
-			<?php 
-			if(function_exists('pagenation')){ 
+			<?php
+			if(function_exists('pagenation')){
 				$GLOBALS['wp_query']->max_num_pages = $args->max_num_pages;
 		    	$max_num_pages = $args->max_num_pages;
 		    	pagenation($max_num_pages);
