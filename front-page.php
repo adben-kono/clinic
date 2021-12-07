@@ -19,7 +19,7 @@
 		</div>
 	</section><!-- p-front-visual -->
 
-	<p class="p-front-message"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/front/211021tanabe_info.jpg" target="_blank">面会および分娩立会いについて</a></p>
+	<p class="p-front-message"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/front/211208tanabe_info.jpg" target="_blank">面会および分娩立会いについて</a></p>
 
 	<p class="p-front-message"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/front/211126tanabe_info.jpg" target="_blank">新型コロナウイルスワクチン接種について</a></p>
 
