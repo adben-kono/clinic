@@ -125,10 +125,6 @@
 					<h3>医療部　看護課主任　助産師<span>石﨑奈美恵</span></h3>
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/family/ph-staff05.jpg" alt="小嶋美雪">
-					<h3>総務部　総務部長<span>小嶋美雪</span></h3>
-				</li>
-				<li>
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/family/ph-staff06.jpg" alt="寺田智代">
 					<h3>総務部　医事課課長<span>寺田智代</span></h3>
 				</li>
