@@ -34,7 +34,7 @@
 
 			<section class="content-info">
 				<h2 class="content-info__head">募集要件</h2>
-				<center><h3>2021年度の募集予定はありません</h3></center>
+				<center><h3>2022年度の募集予定はありません</h3></center>
 				<div class="content-info__body">
 					<table style="opacity:0.3">
 						<tr>

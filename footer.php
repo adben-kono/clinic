@@ -12,7 +12,7 @@
 				<p class="l-footer__tel"><a href="tel:0955-74-4171">☎ 0955-74-4171</a></p>
 			</div>
 		</div>
-		<small class="l-footer__copyright">Copyright &copy; 2021 Tanabe Clinic. <br class="u-device-sp">All Rights Reserved.</small>
+		<small class="l-footer__copyright">Copyright &copy; 2022 Tanabe Clinic. <br class="u-device-sp">All Rights Reserved.</small>
 	</div>
 </footer><!-- l-footer -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
