@@ -1,0 +1,258 @@
+/* ---------------Basis------------------*/
+
+*{
+margin: 0px;
+padding: 0px;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+        box-sizing: border-box;
+}
+body{
+-webkit-text-size-adjust: 100%;
+font-family: 'Noto Sans JP', sans-serif;
+font-size:14px;
+line-height:1.8;
+color:#333;
+text-align: justify;
+text-justify: inter-ideograph;
+box-sizing: border-box;
+}
+a{
+color:#333;
+text-decoration: underline;
+}
+a:hover{
+color:#fc4d52;
+}
+ul,li{
+list-style-type: none;
+}
+/* ------------------------------Text---------------------------------*/
+h1
+{
+font-size:28px;
+font-weight: 500;
+}
+h2
+{
+font-size:24px;
+font-weight: 500;
+}
+h3
+{
+font-size:21px;
+font-weight: 500;
+}
+h4
+{
+font-size:18px;
+font-weight: 500;
+}
+h5
+{
+font-size:16px;
+font-weight: 500;
+}
+h6
+{
+font-size:14px;
+font-weight: 400;
+}
+
+/* ---------------Header------------------*/
+#header{
+width:100%;
+height:100px;
+background: #fff;
+margin: 0;
+}
+
+.top_logo {
+margin:15px auto 0;
+width: 900px;
+height:100%;
+}
+
+.top_logo img{
+width:300px;
+height: auto;
+}
+
+.header-image{
+position: relative;
+width:100%;
+height:200px;
+background:#ddd url(p_image.jpg) no-repeat center center;
+background-size:cover;
+margin: 0;
+}
+.item{
+position: absolute;
+width: 260px;
+height: 56px;
+border-radius: 12px;
+font-size:28px;
+font-weight: 400;
+letter-spacing:6px;
+color:#fff;
+background-color: #fc4d52;
+text-align:center;
+position: absolute;
+top: 70px;
+left: 0;
+right: 0;
+margin: auto;
+line-height:55px;
+}
+
+
+
+/* ---------------　CONTENTS ------------------*/
+#contents{
+width:100%;
+height:auto;
+background: #E0DBD2;
+padding:0;
+}
+
+.readtext{
+margin:20px auto 40px;
+width: 900px;
+height:100%;
+}
+.readtext p{
+font-size:12px;
+letter-spacing: 0px;
+}
+.readtext a{
+display: inline-block;
+}
+
+.category{
+margin:30px auto 0;
+padding: 12px 14px;
+width: 900px;
+height:100%;
+border-radius: 12px 12px 0 0;
+background-color: #fc4d52;
+border: 2px solid  #fc4d52;
+color:#fff;
+font-size:18px;
+font-weight: 500;
+letter-spacing: 1px;
+text-align: center;
+line-height: 1;
+}
+.documents{
+margin:0px auto;
+padding: 10px 20px;
+width: 900px;
+height:100%;
+background-color: white;
+border: 2px solid  #fc4d52;
+border-top: none;
+font-size:14px;
+font-weight: 500;
+text-align: left;
+line-height: 1;
+}
+.documents span{
+font-size:13px;
+font-weight: 300;
+}
+.documents:before{
+content:'\f443';display:inline-block;-webkit-font-smoothing:antialiased;font:normal 36px/1 'Genericons';vertical-align:middle;color:#fc4d52;padding-right:4px;padding-bottom:2px;
+text-decoration: none;
+}
+
+
+
+/* ---------------footer------------------*/
+#footer{
+position: relative;
+width:100%;
+height:180px;
+background: #fff; /* Old browsers */
+background: -moz-linear-gradient(top,  #cccccc 0%, #ffffff 4%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cccccc 0%,#ffffff 4%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cccccc 0%,#ffffff 4%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+background-image: url("tanabefooter.png") no-repeat center center;
+}
+#footer img{
+position:absolute;
+left:0;
+bottom:0;
+}
+.footer_adress{
+position:absolute;
+left:250px;
+bottom:36px;
+letter-spacing:2px;
+}
+.copyright{
+position:absolute;
+right:40px;
+bottom:10px;
+letter-spacing:1px;
+font-size:12px;
+}
+.bottom {
+padding-right:40px;
+background-color :none;
+text-align:right;
+}
+
+
+
+
+/* --------------------------- Web Resposive --------------------------- */
+
+@media screen and (max-width:980px) , print{
+
+.top_logo ,.category,.documents{
+width: 90%;
+}
+
+.readtext{
+width: 90%;
+}
+
+}
+
+
+/* ---------------------------携帯用フォーマット2--------------------------- */
+
+@media screen and (max-width: 640px) {
+html{
+overflow-x : hidden;
+-webkit-overflow-scrolling: touch;
+}
+body{
+line-height:1.5;
+overflow-x : hidden;
+-webkit-overflow-scrolling: touch;
+}
+
+/* ---footer---*/
+#footer{
+height:300px;
+}
+.footer_adress{
+left:20px;
+bottom:170px;
+}
+.copyright{
+text-shadow:1px 1px 0 #fff, -1px -1px 0 #fff,
+-1px 1px 0 #fff, 1px -1px 0 #fff,
+0px 1px 0 #fff,  0-1px 0 #fff,
+-1px 0 0 #fff, 1px 0 0 #fff;
+left:20px;
+}
+.bottom {
+padding-right:auto;
+text-align:left;
+}
+}
