@@ -20,9 +20,8 @@
 	</section><!-- p-front-visual -->
 
 	<p class="p-front-message"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/front/220112tanabe_info.jpg" target="_blank">面会および分娩立会いについて</a></p>
-
+<p class="p-front-message"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/front/kenkou_kansatsu.pdf" target="_blank">里帰り出産を希望される方へのお願い</a></p>
 	<p class="p-front-message"><a href="<?php echo get_template_directory_uri(); ?>/assets/images/front/211126tanabe_info.jpg" target="_blank">新型コロナウイルスワクチン接種について</a></p>
-
 	<section class="p-front-concept">
 		<div class="p-front-concept__container">
 			<div class="p-front-concept__body">
